@@ -39,11 +39,11 @@ html{
 .card{
 	width: 50%;
 	padding: 3px 23px;
-	height: 388px;
+	height: 396px;
 }
 
 .box{
-	margin: 0px;
+	margin: 6px;
 	padding: 10px;
 }
 
