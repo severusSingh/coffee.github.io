@@ -1,0 +1,54 @@
+html{
+	scroll-behavior: smooth;
+}
+/*navigation*/
+
+#navbar{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Home*/
+#home{
+	height: 500px;
+	padding: 3px 23px;
+}
+
+#home::before{
+	height: 600px;
+}
+
+/*product*/
+
+#site-content{
+	flex-direction: column;
+	height: 1103px;
+}
+
+#site-content::before{
+    height: 1260px;
+}
+.card-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	width: 50%;
+	padding: 3px 23px;
+	height: 378px;
+}
+
+.box{
+	margin: 12px;
+	padding: 10px;
+}
+
+/*contact*/
+
+.contact-box form{
+ width: 80%;
+}
